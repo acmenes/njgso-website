@@ -38,7 +38,7 @@
             <div>
                 <p>NJGSO website</p>
                 <!-- A very temporary navigation-->
-                <p>List of arrangments</p>
+                <p>Login</p>
                 <a href='/about'>About NJGSO!</a>
                 <a href='/contact'>Contact</a>
                 <a href='/events'>Events</a>
