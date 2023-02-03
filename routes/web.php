@@ -15,27 +15,22 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-    // return('Welcome to the NJGSO website');
 });
 
 Route::get('/about', function () {
-    // return view('about');
-    return('We are not a sandwich.');
+    return view('about');
 });
 
 Route::get('/contact', function (){
-    // return view('contact');
-    return('Contact us');
+    return view('contact');
 });
 
 Route::get('/events', function(){
-    // return view('events');
-    return('Events');
+    return view('events');
 });
 
 Route::get('blog', function(){
-    // return view('blog');
-    return('blog');
+    return view('blog');
 });
 
 ### MEMBER ROUTES ###
@@ -50,5 +45,4 @@ Route::get('/members/login', function(){
 
 Route::get('/members/arrangements', function(){
     return view('arrangements');
-    // return ('List of arrangements');
 });
